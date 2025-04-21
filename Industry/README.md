@@ -12,7 +12,6 @@
 - <b>seaborn</b>
 - sklearn.model_selection.<b>GridSearchCV</b>
 - sklearn.ensemble.<b>RandomForestRegressor</b>
-- sklearn.neighbors.<b>KNeighborsRegressor</b>
 - sklearn.dummy.<b>DummyRegressor</b>
 - sklearn.metrics.<b>mean_absolute_error</b>
 - sklearn.pipeline.<b>Pipeline</b>
