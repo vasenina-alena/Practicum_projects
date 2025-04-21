@@ -5,12 +5,20 @@
 
 <font size="3"><b>Задача:</b> построить модель, которая будет предсказывать температуру сплава.</font> 
 
+## НАВЫКИ И ИНСТРУМЕНТЫ
+- <b>pandas</b>
+- <b>numpy</b>
+- <b>matplotlib</b>
+- <b>seaborn</b>
+- sklearn.model_selection.<b>GridSearchCV</b>
+- sklearn.ensemble.<b>RandomForestRegressor</b>
+- sklearn.neighbors.<b>KNeighborsRegressor</b>
+- sklearn.dummy.<b>DummyRegressor</b>
+- sklearn.metrics.<b>mean_absolute_error</b>
+- sklearn.pipeline.<b>Pipeline</b>
+- catboost.<b>CatBoostRegressor</b>
+
 ## ОБЩИЕ ВЫВОДЫ
-Обучались модели RandomForestRegressor и CatBoostRegressor.
+Обучались модели <b>RandomForestRegressor</b> и <b>CatBoostRegressor</b>.
 <br>Реализованный Пайплайн позволил выявить лучшую модель: <b>CatBoostRegressor</b>. 
-<br>Для решения задачи по предсказанию температуры рекомендуется модель <b>CatBoostRegressor с гиперпараметрами: 'models__learning_rate': 0.3, 'models__n_estimators': 50</b>.
-
-Также сравнение с результатами работы базовой модели DummyRegressor подтвердило адекватность работы реализованной модели CatBoostRegressor.
-
-Последующий анализ наиболее значимых для обучения модели параметров позволил выделить два основных параметра: суммарное время нагрева и начальное значение температуры сплава. 
-<br>Именно на эти два параметра следует обращать основное внимание заказчику при реализации техпроцесса.
+<br>Сравнение с результатами работы базовой модели DummyRegressor подтвердило адекватность работы реализованной модели.
