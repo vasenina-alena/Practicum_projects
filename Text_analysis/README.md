@@ -7,8 +7,8 @@
 <font size="3"><b>Задача:</b> обучить модель классифицировать комментарии на позитивные и негативные.</font> 
 
 ## НАВЫКИ И ИНСТРУМЕНТЫ
+- <b>python</b>
 - <b>pandas</b>
-- <b>numpy</b>
 - <b>matplotlib</b>
 - nltk.stem.<b>WordNetLemmatizer</b> 
 - sklearn.feature_extraction.text.<b>TfidfVectorizer</b>
